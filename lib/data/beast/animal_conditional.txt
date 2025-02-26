@@ -1,0 +1,13 @@
+if "animal(dog, barks)." == animal_status
+  puts "The dog is an animal that barks."
+elsif "animal(cat, meows)." == animal_status
+  puts "The cat is an animal that meows."
+elsif "#{animal_variable}" == animal_status
+  puts "The #{animal_name} is an animal that #{animal_does}."
+else
+  puts "The animal is something else, so I have no idea what it does."
+
+  puts "Lets fine out."
+
+  learn_animal
+end
